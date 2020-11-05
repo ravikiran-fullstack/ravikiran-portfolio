@@ -32,13 +32,13 @@
 .header_class .main_menu .navbar-nav .active a{
   background: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     background-clip: text;
 }
 
 .header_class .main_menu .navbar-nav a:hover{
   background: var(--gradient-color);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
  }
