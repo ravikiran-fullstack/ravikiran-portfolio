@@ -112,3 +112,15 @@ section {
 .home_section .site-title .buttons button{
   margin-right: 20px !important;
 }
+
+
+/* Blogs Section */
+.blogs_section{
+  width: 100%;
+  height: 88vh;
+  padding: 80px 10%;
+}
+
+.blogs_section .col{
+  margin-left: 10px;
+}
