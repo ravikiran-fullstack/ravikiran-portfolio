@@ -7,6 +7,10 @@ html,body{
   box-sizing: border-box;
 }
 
+section {
+  padding: 80px 0;
+}
+
 :root{
   --primary-color: #4458dc;
   --primary-color2: #854fee;
@@ -36,7 +40,7 @@ html,body{
 }
 
 .header_class .main_menu .navbar{
-  padding: 1rem 20rem;
+  padding: 1rem 5rem;
   
 }
 
@@ -63,3 +67,48 @@ html,body{
   -webkit-text-fill-color: transparent;
   background-clip: text;
  }
+
+/*Start Styles for Home Section */
+
+.home_section{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 88vh;
+  /* padding: 40vh; */
+}
+
+/* .home_section .container-fluid .row{
+  padding-top:5%;
+} */
+
+.home_section .site-title{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.home_section .site-title .title-text h4{
+  padding-left: 10%;
+  font-weight: 500;
+  color: var(--text-color)
+}
+
+.home_section .site-title .title-text h3, h6{
+  padding-left: 10%;
+  font-size: 1rem;
+  color: var(--text-color)
+}
+
+.home_section .site-title .title-text h1{
+  padding-left: 10%;
+  font-size: 4rem;
+  color: var(--title-color)
+}
+
+.home_section .site-title .buttons{
+  margin-top: 30px;
+  padding-left: 10%;
+}
+
+.home_section .site-title .buttons button{
+  margin-right: 20px !important;
+}
